@@ -15,6 +15,7 @@
       <option value="$PROJECT_DIR$/Assets/Waypoints.cs" />
       <option value="$PROJECT_DIR$/Assets/Enemy.cs" />
       <option value="$PROJECT_DIR$/Assets/WaveSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Turret.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uAM8TS7vFyayVrMcfzuCeiA6Iz" />
@@ -57,7 +58,8 @@
       <option name="presentableId" value="Default" />
       <updated>1624103783934</updated>
       <workItem from="1624103797958" duration="1644000" />
-      <workItem from="1624120386819" duration="2513000" />
+      <workItem from="1624120386819" duration="3947000" />
+      <workItem from="1624205235797" duration="1399000" />
     </task>
     <servers />
   </component>
