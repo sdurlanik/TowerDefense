@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Node.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BuildManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -25,6 +26,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
       <option value="$PROJECT_DIR$/Assets/BuildManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Node.cs" />
+      <option value="$PROJECT_DIR$/Assets/CameraController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uAM8TS7vFyayVrMcfzuCeiA6Iz" />
