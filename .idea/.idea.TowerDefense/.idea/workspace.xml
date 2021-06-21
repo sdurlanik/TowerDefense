@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Node.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BuildManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -24,9 +25,10 @@
       <option value="$PROJECT_DIR$/Assets/Turret.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Turret.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
-      <option value="$PROJECT_DIR$/Assets/BuildManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Node.cs" />
       <option value="$PROJECT_DIR$/Assets/CameraController.cs" />
+      <option value="$PROJECT_DIR$/Assets/BuildManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Shop.cs" />
+      <option value="$PROJECT_DIR$/Assets/Node.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uAM8TS7vFyayVrMcfzuCeiA6Iz" />
@@ -71,6 +73,7 @@
       <workItem from="1624103797958" duration="1644000" />
       <workItem from="1624120386819" duration="3947000" />
       <workItem from="1624205235797" duration="7608000" />
+      <workItem from="1624299508808" duration="1967000" />
     </task>
     <servers />
   </component>

@@ -16,6 +16,7 @@
           <e p="WaveSpawner.cs" t="Include" />
           <e p="Waypoints.cs" t="Include" />
         </e>
+        <e p="Shop.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
