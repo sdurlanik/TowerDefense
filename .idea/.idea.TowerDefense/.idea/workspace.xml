@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerStats.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -24,9 +25,13 @@
       <option value="$PROJECT_DIR$/Assets/BuildManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Shop.cs" />
       <option value="$PROJECT_DIR$/Assets/Node.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TurretBluePrint.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TurretBlueprint.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Node.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlayerStats.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uAM8TS7vFyayVrMcfzuCeiA6Iz" />
@@ -71,7 +76,8 @@
       <workItem from="1624103797958" duration="1644000" />
       <workItem from="1624120386819" duration="3947000" />
       <workItem from="1624205235797" duration="7608000" />
-      <workItem from="1624299508808" duration="5570000" />
+      <workItem from="1624299508808" duration="6182000" />
+      <workItem from="1624371898230" duration="2399000" />
     </task>
     <servers />
   </component>
