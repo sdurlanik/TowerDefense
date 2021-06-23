@@ -1,13 +1,22 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManagement : MonoBehaviour
 {
-    private bool gameEnded = false;
+    public static bool GameIsOver;
+
+    public GameObject gameOverUI;
+
+    private void Start()
+    {
+        GameIsOver = false;
+    }
+
     void Update()
     {
-        if (gameEnded)
+        if (GameIsOver)
         {
             return;
         }
@@ -21,6 +30,7 @@ public class GameManagement : MonoBehaviour
 
     private void EndGame()
     {
-        gameEnded = true;
+        GameIsOver = true;
+        gameOverUI.SetActive(true);
     }
 }
