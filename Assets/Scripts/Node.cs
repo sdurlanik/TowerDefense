@@ -34,14 +34,15 @@ public class Node : MonoBehaviour
     }
     void OnMouseDown()
     {
-        if (!buildManager.CanBuild)
-        {
-            return;
-        }
+ 
         
         if (turret != null)
         {
-            Debug.Log("Yerleştirilemez");
+            buildManager.SelectNode(this);
+            return;
+        }
+        if (!buildManager.CanBuild)
+        {
             return;
         }
         

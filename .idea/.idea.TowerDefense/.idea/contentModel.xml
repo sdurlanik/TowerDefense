@@ -11,6 +11,7 @@
         <e p="GameOver.cs" t="Include" />
         <e p="LivesUI.cs" t="Include" />
         <e p="MoneyUI.cs" t="Include" />
+        <e p="NodeUI.cs" t="Include" />
         <e p="PlayerStats.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BuildManager.cs" t="Include" />

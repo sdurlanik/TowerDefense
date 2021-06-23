@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\Turret.cs" />
      <Compile Include="Assets\MoneyUI.cs" />
      <Compile Include="Assets\EnemyMovement.cs" />
+     <Compile Include="Assets\GameOver.cs" />
      <Compile Include="Assets\GameManagement.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
@@ -67,7 +68,7 @@
      <Compile Include="Assets\Scripts\BuildManager.cs" />
      <Compile Include="Assets\Scripts\WaveSpawner.cs" />
      <Compile Include="Assets\Scripts\Node.cs" />
-     <Compile Include="Assets\GameOver.cs" />
+     <Compile Include="Assets\NodeUI.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
