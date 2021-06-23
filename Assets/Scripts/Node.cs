@@ -9,12 +9,17 @@ public class Node : MonoBehaviour
     public Color hoverColor;
     public Color notEnoughMoneyColor;
     public Vector3 positionOffset;
-    
-    
-    
-    [Header("Fonksiyonel")]
 
+
+
+    [HideInInspector] 
     public GameObject turret;
+
+    [HideInInspector] 
+    public TurretBlueprint turretBlueprint;
+
+    [HideInInspector] 
+    public bool isUpgraded = false;
     
     private Renderer rend;
     private Color startColor;
@@ -46,10 +51,49 @@ public class Node : MonoBehaviour
             return;
         }
         
-        buildManager.BuildTurretOn(this);
+       BuildTurret(buildManager.GetTurretToBuild());
 
     }
 
+    void BuildTurret(TurretBlueprint blueprint)
+    {
+        if (PlayerStats.Money < blueprint.cost)
+        {
+            return;
+        }
+
+        PlayerStats.Money -= blueprint.cost;
+
+        GameObject _turret = (GameObject) Instantiate(blueprint.prefab, GetBuildPosition(), Quaternion.identity);
+        turret = _turret;
+
+        turretBlueprint = blueprint;
+
+        GameObject effect = (GameObject)Instantiate(buildManager.buildEffect, GetBuildPosition(), Quaternion.identity);
+        Destroy(effect, 5f);
+    }
+
+    public void UpgradeTurret()
+    {
+        if (PlayerStats.Money < turretBlueprint.upgradeCost)
+        {
+            return;
+        }
+
+        PlayerStats.Money -= turretBlueprint.upgradeCost;
+        //Eski kuleyi sil
+        Destroy(turret);
+        
+        // Yeni kuleyi ekle
+        GameObject _turret = (GameObject) Instantiate(turretBlueprint.upgradedPrefab, GetBuildPosition(), Quaternion.identity);
+        turret = _turret;
+        
+
+        GameObject effect = (GameObject)Instantiate(buildManager.buildEffect, GetBuildPosition(), Quaternion.identity);
+        Destroy(effect, 5f);
+
+        isUpgraded = true;
+    }
 
     void OnMouseEnter()
     {

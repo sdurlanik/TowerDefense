@@ -39,7 +39,6 @@
       <option value="$PROJECT_DIR$/Assets/Shop.cs" />
       <option value="$PROJECT_DIR$/Assets/Node.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TurretBluePrint.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/TurretBlueprint.cs" />
       <option value="$PROJECT_DIR$/Assets/MoneyUI.cs" />
       <option value="$PROJECT_DIR$/Assets/LivesUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
@@ -52,9 +51,10 @@
       <option value="$PROJECT_DIR$/Assets/PlayerStats.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/WaveSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/GameOver.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TurretBlueprint.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Node.cs" />
       <option value="$PROJECT_DIR$/Assets/NodeUI.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uAM8TS7vFyayVrMcfzuCeiA6Iz" />
@@ -101,7 +101,7 @@
       <workItem from="1624205235797" duration="7608000" />
       <workItem from="1624299508808" duration="6182000" />
       <workItem from="1624371898230" duration="7799000" />
-      <workItem from="1624456794875" duration="9883000" />
+      <workItem from="1624456794875" duration="12556000" />
     </task>
     <servers />
   </component>
