@@ -19,6 +19,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MoneyUI.cs" root0="FORCE_HIGHLIGHTING" />
@@ -31,23 +32,24 @@
       <option value="$PROJECT_DIR$/Assets/Enemy.cs" />
       <option value="$PROJECT_DIR$/Assets/WaveSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Turret.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Turret.cs" />
       <option value="$PROJECT_DIR$/Assets/CameraController.cs" />
       <option value="$PROJECT_DIR$/Assets/BuildManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Shop.cs" />
       <option value="$PROJECT_DIR$/Assets/Node.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TurretBluePrint.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TurretBlueprint.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Node.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/WaveSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/MoneyUI.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
       <option value="$PROJECT_DIR$/Assets/LivesUI.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerStats.cs" />
       <option value="$PROJECT_DIR$/Assets/GameManagement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/EnemyMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Turret.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uAM8TS7vFyayVrMcfzuCeiA6Iz" />
@@ -94,6 +96,7 @@
       <workItem from="1624205235797" duration="7608000" />
       <workItem from="1624299508808" duration="6182000" />
       <workItem from="1624371898230" duration="7799000" />
+      <workItem from="1624456794875" duration="5950000" />
     </task>
     <servers />
   </component>
