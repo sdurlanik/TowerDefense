@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
@@ -11,19 +12,24 @@ public class Enemy : MonoBehaviour
     public float speed;
     
     public float health = 100;
+    private float healthlast;
     public int worth = 50;
 
     public GameObject deathEffect;
 
+    public Image healthBar;
+
     private void Start()
     {
         speed = startSpeed;
+        healthlast = health;
     }
 
     public void TakeDamage(float amount)
     {
         health -= amount;
 
+        healthBar.fillAmount = health / healthlast;
         if (health <= 0)
         {
             Die();
