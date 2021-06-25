@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="MainMenu.cs" t="Include" />
         <e p="PauseMenu.cs" t="Include" />
+        <e p="SceneFader.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BuildManager.cs" t="Include" />
           <e p="Bullet.cs" t="Include" />
